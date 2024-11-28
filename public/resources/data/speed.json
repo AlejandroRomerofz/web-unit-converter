@@ -1,0 +1,13 @@
+{
+  "units": [
+    { "id": 0, "name": "UNIT_SPEED_METERS_PER_SECOND", "factor": 1 },
+    {
+      "id": 1,
+      "name": "UNIT_SPEED_KILOMETERS_PER_HOUR",
+      "factor": 0.2777777778
+    },
+    { "id": 2, "name": "UNIT_SPEED_MILES_PER_HOUR", "factor": 0.44704 },
+    { "id": 3, "name": "UNIT_SPEED_KNOTS", "factor": 0.514444 },
+    { "id": 4, "name": "UNIT_SPEED_FEET_PER_SECOND", "factor": 0.3048 }
+  ]
+}

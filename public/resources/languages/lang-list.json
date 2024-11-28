@@ -1,0 +1,19 @@
+{
+  "langs": [
+    {
+      "id": 0,
+      "name": "LANGUAGE_SPANISH",
+      "iso": "es"
+    },
+    {
+      "id": 1,
+      "name": "LANGUAGE_ENGLISH",
+      "iso": "en"
+    },
+    {
+      "id": 2,
+      "name": "LANGUAGE_FRENCH",
+      "iso": "fr"
+    }
+  ]
+}

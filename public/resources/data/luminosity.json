@@ -1,0 +1,7 @@
+{
+  "units": [
+    { "id": 0, "name": "UNIT_LUMINOSITY_CANDELA", "factor": 1 },
+    { "id": 1, "name": "UNIT_LUMINOSITY_LUMEN", "factor": 1 },
+    { "id": 2, "name": "UNIT_LUMINOSITY_LUX", "factor": 1 }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "units": [
+    { "id": 0, "name": "UNIT_FORCE_NEWTON", "factor": 1 },
+    { "id": 1, "name": "UNIT_FORCE_KILONEWTON", "factor": 1000 },
+    { "id": 2, "name": "UNIT_FORCE_MEGANEWTON", "factor": 1000000 },
+    { "id": 3, "name": "UNIT_FORCE_DYNE", "factor": 0.00001 },
+    { "id": 4, "name": "UNIT_FORCE_POUND_FORCE", "factor": 4.4482216152605 },
+    { "id": 5, "name": "UNIT_FORCE_KILOGRAM_FORCE", "factor": 9.80665 },
+    {
+      "id": 6,
+      "name": "UNIT_FORCE_OUNCE_FORCE",
+      "factor": 0.27801385095378125
+    },
+    { "id": 7, "name": "UNIT_FORCE_TON_FORCE", "factor": 9806.65 }
+  ]
+}

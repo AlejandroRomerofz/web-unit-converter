@@ -1,0 +1,19 @@
+.converter {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.con-from,
+.con-to {
+  width: 15rem;
+}
+
+.con-equal {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgba(130, 130, 130, 0.553);
+}

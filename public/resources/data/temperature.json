@@ -1,0 +1,7 @@
+{
+  "units": [
+    { "id": 0, "name": "UNIT_TEMPERATURE_CELSIUS", "factor": 1 },
+    { "id": 1, "name": "UNIT_TEMPERATURE_FAHRENHEIT", "factor": 1.8 },
+    { "id": 2, "name": "UNIT_TEMPERATURE_KELVIN", "factor": 1 }
+  ]
+}

@@ -1,0 +1,57 @@
+.navegation {
+  width: 100%;
+  background-color: rgb(189, 203, 215);
+}
+
+.nav-container {
+  width: 95%;
+  padding: 1rem 0;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .nav-container {
+    width: 70%;
+  }
+}
+
+.nav-container ul {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+}
+
+.nav-container p {
+  font-size: 1.4rem;
+  width: max-content;
+  font-weight: 300;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.nav-container li.selected p {
+  font-weight: 800;
+  cursor: auto;
+}
+
+.nav-container li:not(.selected) p:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+  .nav-container ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-container p {
+    font-size: 1.5rem;
+    width: max-content;
+  }
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}

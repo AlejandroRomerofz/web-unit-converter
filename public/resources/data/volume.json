@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": 0,
+      "name": "UNIT_VOLUME_CUBIC_METER",
+      "symbol": "m³",
+      "conversion_factor": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIT_VOLUME_LITER",
+      "symbol": "L",
+      "conversion_factor": 0.001
+    },
+    {
+      "id": 2,
+      "name": "UNIT_VOLUME_MILLILITER",
+      "symbol": "mL",
+      "conversion_factor": 0.000001
+    },
+    {
+      "id": 3,
+      "name": "UNIT_VOLUME_CUBIC_CENTIMETER",
+      "symbol": "cm³",
+      "conversion_factor": 0.000001
+    }
+  ]
+}

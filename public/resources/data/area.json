@@ -1,0 +1,34 @@
+{
+  "units": [
+    {
+      "id": 0,
+      "name": "UNIT_AREA_SQUARE_METER",
+      "symbol": "m²",
+      "conversion_factor": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIT_AREA_SQUARE_KILOMETER",
+      "symbol": "km²",
+      "conversion_factor": 1000000
+    },
+    {
+      "id": 2,
+      "name": "UNIT_AREA_HECTARE",
+      "symbol": "ha",
+      "conversion_factor": 10000
+    },
+    {
+      "id": 3,
+      "name": "UNIT_AREA_ACRE",
+      "symbol": "ac",
+      "conversion_factor": 4046.86
+    },
+    {
+      "id": 4,
+      "name": "UNIT_AREA_SQUARE_FOOT",
+      "symbol": "ft²",
+      "conversion_factor": 0.092903
+    }
+  ]
+}

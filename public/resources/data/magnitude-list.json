@@ -1,0 +1,104 @@
+{
+  "magnitudes": [
+    {
+      "id": 0,
+      "name": "MAGNITUDE_DISTANCE",
+      "url": "distance.json"
+    },
+    {
+      "id": 1,
+      "name": "MAGNITUDE_TIME",
+      "url": "time.json"
+    },
+    {
+      "id": 2,
+      "name": "MAGNITUDE_WEIGHT",
+      "url": "weight.json"
+    },
+    {
+      "id": 3,
+      "name": "MAGNITUDE_AREA",
+      "url": "area.json"
+    },
+    {
+      "id": 4,
+      "name": "MAGNITUDE_VOLUME",
+      "url": "volume.json"
+    },
+    {
+      "id": 5,
+      "name": "MAGNITUDE_TEMPERATURE",
+      "url": "temperature.json"
+    },
+    {
+      "id": 6,
+      "name": "MAGNITUDE_ENERGY",
+      "url": "energy.json"
+    },
+    {
+      "id": 7,
+      "name": "MAGNITUDE_FORCE",
+      "url": "force.json"
+    },
+    {
+      "id": 8,
+      "name": "MAGNITUDE_PRESSURE",
+      "url": "pressure.json"
+    },
+    {
+      "id": 9,
+      "name": "MAGNITUDE_SPEED",
+      "url": "speed.json"
+    },
+    {
+      "id": 10,
+      "name": "MAGNITUDE_ACCELERATION",
+      "url": "acceleration.json"
+    },
+    {
+      "id": 11,
+      "name": "MAGNITUDE_POWER",
+      "url": "power.json"
+    },
+    {
+      "id": 12,
+      "name": "MAGNITUDE_LUMINOSITY",
+      "url": "luminosity.json"
+    },
+    {
+      "id": 13,
+      "name": "MAGNITUDE_CAPACITY",
+      "url": "capacity.json"
+    },
+    {
+      "id": 14,
+      "name": "MAGNITUDE_ELECTRIC_CURRENT",
+      "url": "electric_current.json"
+    },
+    {
+      "id": 15,
+      "name": "MAGNITUDE_VOLTAGE",
+      "url": "voltage.json"
+    },
+    {
+      "id": 16,
+      "name": "MAGNITUDE_RESISTANCE",
+      "url": "resistance.json"
+    },
+    {
+      "id": 17,
+      "name": "MAGNITUDE_ELECTRIC_CHARGE",
+      "url": "electric_charge.json"
+    },
+    {
+      "id": 18,
+      "name": "MAGNITUDE_MAGNETIC_FIELD",
+      "url": "magnetic_field.json"
+    },
+    {
+      "id": 19,
+      "name": "MAGNITUDE_FREQUENCY",
+      "url": "frequency.json"
+    }
+  ]
+}

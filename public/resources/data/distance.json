@@ -1,0 +1,112 @@
+{
+  "units": [
+    {
+      "id": 0,
+      "name": "UNIT_DISTANCE_METER",
+      "symbol": "m",
+      "conversion_factor": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIT_DISTANCE_KILOMETER",
+      "symbol": "km",
+      "conversion_factor": 1000
+    },
+    {
+      "id": 2,
+      "name": "UNIT_DISTANCE_CENTIMETER",
+      "symbol": "cm",
+      "conversion_factor": 0.01
+    },
+    {
+      "id": 3,
+      "name": "UNIT_DISTANCE_MILLIMETER",
+      "symbol": "mm",
+      "conversion_factor": 0.001
+    },
+    {
+      "id": 4,
+      "name": "UNIT_DISTANCE_MICROMETER",
+      "symbol": "µm",
+      "conversion_factor": 0.000001
+    },
+    {
+      "id": 5,
+      "name": "UNIT_DISTANCE_NANOMETER",
+      "symbol": "nm",
+      "conversion_factor": 0.000000001
+    },
+    {
+      "id": 6,
+      "name": "UNIT_DISTANCE_MILE",
+      "symbol": "mi",
+      "conversion_factor": 1609.34
+    },
+    {
+      "id": 7,
+      "name": "UNIT_DISTANCE_YARD",
+      "symbol": "yd",
+      "conversion_factor": 0.9144
+    },
+    {
+      "id": 8,
+      "name": "UNIT_DISTANCE_FOOT",
+      "symbol": "ft",
+      "conversion_factor": 0.3048
+    },
+    {
+      "id": 9,
+      "name": "UNIT_DISTANCE_INCH",
+      "symbol": "in",
+      "conversion_factor": 0.0254
+    },
+    {
+      "id": 10,
+      "name": "UNIT_DISTANCE_NAUTICAL_MILE",
+      "symbol": "NM",
+      "conversion_factor": 1852
+    },
+    {
+      "id": 11,
+      "name": "UNIT_DISTANCE_LIGHT_YEAR",
+      "symbol": "ly",
+      "conversion_factor": 9460700000000000
+    },
+    {
+      "id": 12,
+      "name": "UNIT_DISTANCE_ASTRONOMICAL_UNIT",
+      "symbol": "AU",
+      "conversion_factor": 149600000000
+    },
+    {
+      "id": 13,
+      "name": "UNIT_DISTANCE_PARSEC",
+      "symbol": "pc",
+      "conversion_factor": 30857000000000000
+    },
+    {
+      "id": 14,
+      "name": "UNIT_DISTANCE_FURLONG",
+      "symbol": "fur",
+      "conversion_factor": 201.168
+    },
+    {
+      "id": 15,
+      "name": "UNIT_DISTANCE_CHAIN",
+      "symbol": "ch",
+      "conversion_factor": 20.1168
+    },
+    {
+      "id": 16,
+      "name": "UNIT_DISTANCE_ROD",
+      "symbol": "rd",
+      "conversion_factor": 5.0292
+    },
+    {
+      "id": 17,
+      "name": "UNIT_DISTANCE_ANGSTROM",
+      "symbol": "Å",
+      "conversion_factor": 0.0000000001
+    }
+  ]
+}

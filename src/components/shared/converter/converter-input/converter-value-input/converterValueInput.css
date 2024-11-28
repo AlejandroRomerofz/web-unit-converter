@@ -1,0 +1,24 @@
+.converter-value-input input {
+  padding: 1rem;
+  font-size: 1.8rem;
+  border: 0;
+  width: 100%;
+  border-color: black;
+  color: inherit;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.converter-value-input input::-webkit-outer-spin-button,
+.converter-value-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.converter-value-input input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.converter-value-input input:target {
+  border: 0;
+}

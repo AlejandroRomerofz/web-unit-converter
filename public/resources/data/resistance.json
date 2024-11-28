@@ -1,0 +1,8 @@
+{
+  "units": [
+    { "id": 0, "name": "UNIT_RESISTANCE_OHM", "factor": 1 },
+    { "id": 1, "name": "UNIT_RESISTANCE_KILO_OHM", "factor": 0.001 },
+    { "id": 2, "name": "UNIT_RESISTANCE_MEGA_OHM", "factor": 0.000001 },
+    { "id": 3, "name": "UNIT_RESISTANCE_GIGA_OHM", "factor": 0.000000001 }
+  ]
+}

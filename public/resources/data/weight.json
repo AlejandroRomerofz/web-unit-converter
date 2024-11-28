@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "id": 0,
+      "name": "UNIT_WEIGHT_KILOGRAM",
+      "symbol": "kg",
+      "conversion_factor": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIT_WEIGHT_GRAM",
+      "symbol": "g",
+      "conversion_factor": 0.001
+    },
+    {
+      "id": 2,
+      "name": "UNIT_WEIGHT_MILLIGRAM",
+      "symbol": "mg",
+      "conversion_factor": 0.000001
+    },
+    {
+      "id": 3,
+      "name": "UNIT_WEIGHT_TONNE",
+      "symbol": "t",
+      "conversion_factor": 1000
+    },
+    {
+      "id": 4,
+      "name": "UNIT_WEIGHT_POUND",
+      "symbol": "lb",
+      "conversion_factor": 0.453592
+    },
+    {
+      "id": 5,
+      "name": "UNIT_WEIGHT_OUNCE",
+      "symbol": "oz",
+      "conversion_factor": 0.0283495
+    },
+    {
+      "id": 6,
+      "name": "UNIT_WEIGHT_STONE",
+      "symbol": "st",
+      "conversion_factor": 6.35029
+    }
+  ]
+}

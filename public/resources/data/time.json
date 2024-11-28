@@ -1,0 +1,52 @@
+{
+  "units": [
+    {
+      "id": 0,
+      "name": "UNIT_TIME_SECOND",
+      "symbol": "s",
+      "conversion_factor": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIT_TIME_MINUTE",
+      "symbol": "min",
+      "conversion_factor": 60
+    },
+    {
+      "id": 2,
+      "name": "UNIT_TIME_HOUR",
+      "symbol": "h",
+      "conversion_factor": 3600
+    },
+    {
+      "id": 3,
+      "name": "UNIT_TIME_DAY",
+      "symbol": "d",
+      "conversion_factor": 86400
+    },
+    {
+      "id": 4,
+      "name": "UNIT_TIME_WEEK",
+      "symbol": "wk",
+      "conversion_factor": 604800
+    },
+    {
+      "id": 5,
+      "name": "UNIT_TIME_YEAR",
+      "symbol": "yr",
+      "conversion_factor": 31536000
+    },
+    {
+      "id": 6,
+      "name": "UNIT_TIME_MILLISECOND",
+      "symbol": "ms",
+      "conversion_factor": 0.001
+    },
+    {
+      "id": 7,
+      "name": "UNIT_TIME_MICROSECOND",
+      "symbol": "µs",
+      "conversion_factor": 0.000001
+    }
+  ]
+}
