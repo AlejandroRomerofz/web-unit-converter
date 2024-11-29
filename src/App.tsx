@@ -30,7 +30,7 @@ export default function App() {
 
   // Get lang strings first time
   const langInitializer = () => {
-    fetch("/resources/languages/" + lang + ".json")
+    fetch("./resources/languages/" + lang + ".json")
       .then((res) => {
         return res.json();
       })
