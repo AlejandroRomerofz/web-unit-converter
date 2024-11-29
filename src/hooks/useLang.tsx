@@ -11,7 +11,7 @@ export default function useLang() {
   };
 
   const changeLang = (lang: string) => {
-    fetch("/resources/languages/" + lang + ".json")
+    fetch("./resources/languages/" + lang + ".json")
       .then((res) => {
         return res.json();
       })
@@ -25,7 +25,7 @@ export default function useLang() {
   };
 
   const getAllLangs = async () => {
-    const langs = await fetch("/resources/languages/lang-list.json").then(
+    const langs = await fetch("./resources/languages/lang-list.json").then(
       (res) => {
         return res.json();
       }

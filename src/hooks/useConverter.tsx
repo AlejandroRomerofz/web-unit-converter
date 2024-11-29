@@ -3,7 +3,7 @@ import { ConverterContext } from "../contexts/ConverterContext";
 import { Magnitude } from "../models/Magnitude";
 import { Unit } from "../models/Unit";
 
-const dataUrl = "/resources/data/";
+const dataUrl = "./resources/data/";
 
 export default function useConverter() {
   const {

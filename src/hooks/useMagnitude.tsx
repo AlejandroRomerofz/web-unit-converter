@@ -3,7 +3,7 @@ import { Magnitude } from "../models/Magnitude";
 import { Unit } from "../models/Unit";
 import { MagnitudeContext } from "../contexts/MagnitudeContext";
 
-const dataUrl = "/resources/data/";
+const dataUrl = "./resources/data/";
 
 export default function useMagnitude() {
   const { actualMagnitude, setActualMagnitude } = useContext(MagnitudeContext);
