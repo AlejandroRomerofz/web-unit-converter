@@ -19,10 +19,6 @@ export default function ConverterSelect({
   const { allUnits, getUnitById } = useConverter();
   const { l } = useLang();
 
-  useEffect(() => {
-    console.log(allUnits);
-  }, [allUnits]);
-
   const toggleSelectorOpen = () => {
     openSelector ? setOpenSelector(false) : setOpenSelector(true);
   };

@@ -5,7 +5,7 @@ import useMagnitude from "../../../hooks/useMagnitude";
 import useConverter from "../../../hooks/useConverter";
 
 export default function Converter() {
-  const { getAllUnits, actualMagnitudeId } = useMagnitude();
+  const { getAllUnits, actualMagnitude } = useMagnitude();
   const {
     getConversion,
     allUnits,
@@ -16,62 +16,68 @@ export default function Converter() {
     setCurrentToUnit,
   } = useConverter();
 
+  const [fromValue, setFromValue] = useState("0");
+  const [toValue, setToValue] = useState("0");
+
+  // Get all units of the magnitude selected currently and save them on the state
   const updateAllUnits = () => {
     getAllUnits().then((units) => {
-      setAllUnits(units);
-      setCurrentFromUnit(units[0]);
-      setCurrentToUnit(units[1]);
+      setAllUnits(units!);
+      setCurrentFromUnit(units![0]);
+      setCurrentToUnit(units![1]);
     });
   };
 
+  // Update value when from unit is changed
   useEffect(() => {
-    updateAllUnits();
-    setFromValue(0);
-    setToValue(0);
-  }, [actualMagnitudeId]);
-
-  useEffect(() => {
-    setFromValue(getConversion(toValue, true));
+    setFromValue(getConversion(parseFloat(toValue), true).toString());
   }, [currentFromUnit]);
 
+  // Update value when to unit is changed
   useEffect(() => {
-    setToValue(getConversion(fromValue, false));
+    setToValue(getConversion(parseFloat(toValue), false).toString());
   }, [currentToUnit]);
 
+  // Reset all values on magnitude change
   useEffect(() => {
     updateAllUnits();
-    setFromValue(0);
-    setToValue(0);
-  }, [actualMagnitudeId]);
+    setFromValue("0");
+    setToValue("0");
+  }, [actualMagnitude]);
 
   useEffect(() => {
     updateAllUnits();
   }, []);
 
-  const handleFromInputValueChange = (value: number) => {
-    if (isNaN(value)) {
-      setToValue(0);
-      setFromValue(0);
+  const handleFromInputValueChange = (value: string) => {
+    console.log(value);
+    const numberValue = parseFloat(value);
+    console.log(numberValue);
+
+    // Avoid void input
+    if (isNaN(numberValue)) {
+      setToValue("0");
+      setFromValue("0");
       return;
     }
 
-    setFromValue(value);
-    setToValue(getConversion(value, false));
+    setFromValue(numberValue.toString());
+    setToValue(getConversion(numberValue, false).toString());
   };
 
-  const handleToInputValueChange = (value: number) => {
-    if (isNaN(value)) {
-      setToValue(0);
-      setFromValue(0);
+  const handleToInputValueChange = (value: string) => {
+    const numberValue = parseFloat(value);
+
+    // Avoid void input
+    if (isNaN(numberValue)) {
+      setToValue("0");
+      setFromValue("");
       return;
     }
 
-    setToValue(value);
-    setFromValue(getConversion(value, true));
+    setToValue(numberValue.toString());
+    setFromValue(getConversion(numberValue, true).toString());
   };
-
-  const [fromValue, setFromValue] = useState(0);
-  const [toValue, setToValue] = useState(0);
 
   return allUnits.length > 0 && currentFromUnit && currentToUnit ? (
     <div className="converter">
@@ -95,7 +101,5 @@ export default function Converter() {
         ></ConverterInput>
       </div>
     </div>
-  ) : (
-    <p>cargando...</p>
-  );
+  ) : null;
 }

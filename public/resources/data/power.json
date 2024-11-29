@@ -1,16 +1,24 @@
 {
   "units": [
-    { "id": 0, "name": "UNIT_POWER_WATT", "factor": 1 },
-    { "id": 1, "name": "UNIT_POWER_HORSEPOWER", "factor": 745.7 },
-    { "id": 2, "name": "UNIT_POWER_KILOWATT", "factor": 1000 },
-    { "id": 3, "name": "UNIT_POWER_MEGAWATT", "factor": 1000000 },
-    { "id": 4, "name": "UNIT_POWER_CALORIE_PER_SECOND", "factor": 4.184 },
-    { "id": 5, "name": "UNIT_POWER_JOULE_PER_SECOND", "factor": 1 },
+    { "id": 0, "name": "UNIT_POWER_WATT", "conversion_factor": 1 },
+    { "id": 1, "name": "UNIT_POWER_HORSEPOWER", "conversion_factor": 745.7 },
+    { "id": 2, "name": "UNIT_POWER_KILOWATT", "conversion_factor": 1000 },
+    { "id": 3, "name": "UNIT_POWER_MEGAWATT", "conversion_factor": 1000000 },
+    {
+      "id": 4,
+      "name": "UNIT_POWER_CALORIE_PER_SECOND",
+      "conversion_factor": 4.184
+    },
+    { "id": 5, "name": "UNIT_POWER_JOULE_PER_SECOND", "conversion_factor": 1 },
     {
       "id": 6,
       "name": "UNIT_POWER_BRITISH_THERMAL_UNIT_PER_HOUR",
-      "factor": 0.29307107
+      "conversion_factor": 0.29307107
     },
-    { "id": 7, "name": "UNIT_POWER_KILOJOULE_PER_SECOND", "factor": 1000 }
+    {
+      "id": 7,
+      "name": "UNIT_POWER_KILOJOULE_PER_SECOND",
+      "conversion_factor": 1000
+    }
   ]
 }

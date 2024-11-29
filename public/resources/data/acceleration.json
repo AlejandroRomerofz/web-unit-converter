@@ -3,28 +3,28 @@
     {
       "id": 0,
       "name": "UNIT_ACCELERATION_METERS_PER_SECOND_SQUARED",
-      "factor": 1
+      "conversion_factor": 1
     },
-    { "id": 1, "name": "UNIT_ACCELERATION_G", "factor": 9.81 },
+    { "id": 1, "name": "UNIT_ACCELERATION_G", "conversion_factor": 9.81 },
     {
       "id": 2,
       "name": "UNIT_ACCELERATION_FEET_PER_SECOND_SQUARED",
-      "factor": 3.28084
+      "conversion_factor": 3.28084
     },
     {
       "id": 3,
       "name": "UNIT_ACCELERATION_KILOMETERS_PER_HOUR_SQUARED",
-      "factor": 0.0000771605
+      "conversion_factor": 0.0000771605
     },
     {
       "id": 4,
       "name": "UNIT_ACCELERATION_MILES_PER_HOUR_SQUARED",
-      "factor": 0.000149909
+      "conversion_factor": 0.000149909
     },
     {
       "id": 5,
       "name": "UNIT_ACCELERATION_INCHES_PER_SECOND_SQUARED",
-      "factor": 0.0254
+      "conversion_factor": 0.0254
     }
   ]
 }

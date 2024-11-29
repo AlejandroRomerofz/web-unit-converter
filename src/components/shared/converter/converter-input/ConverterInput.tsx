@@ -9,10 +9,10 @@ import "./converterInput.css";
 
 export type ConverterInputProps = {
   selectOnChange: (selectedId: number) => void;
-  valueOnChange: (value: number) => void;
+  valueOnChange: (value: string) => void;
   actualSelected: Unit;
   setActualSelect: (unit: Unit) => void;
-  value: number;
+  value: string;
 };
 
 export default function ConverterInput({

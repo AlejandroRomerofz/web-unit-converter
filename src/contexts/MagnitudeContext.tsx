@@ -1,11 +1,12 @@
 import { createContext } from "react";
+import { Magnitude } from "../models/Magnitude";
 
 export type MagnitudeContextValue = {
-  actualMagnitudeId: number;
-  setActualMagnitudeId: (magnitudeId: number) => void;
+  actualMagnitude?: Magnitude;
+  setActualMagnitude: (magnitudeId: Magnitude) => void;
 };
 
 export const MagnitudeContext = createContext<MagnitudeContextValue>({
-  actualMagnitudeId: 0,
-  setActualMagnitudeId: () => {},
+  actualMagnitude: undefined,
+  setActualMagnitude: () => {},
 });

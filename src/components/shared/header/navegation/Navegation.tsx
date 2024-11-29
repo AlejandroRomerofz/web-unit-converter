@@ -8,7 +8,7 @@ export default function Navegation() {
   const { l } = useLang();
 
   const [allMagnitudes, setAllMagnitudes] = useState<Magnitude[]>([]);
-  const { getAllMagnitudes, setActualMagnitudeId, actualMagnitudeId } =
+  const { getAllMagnitudes, setActualMagnitude, actualMagnitude } =
     useMagnitude();
 
   useEffect(() => {
@@ -23,15 +23,17 @@ export default function Navegation() {
         <ul>
           {allMagnitudes.length == 0
             ? null
-            : allMagnitudes.map(({ id, name }) => {
+            : allMagnitudes.map((magnitude) => {
                 return (
                   <li
-                    className={`${actualMagnitudeId == id ? "selected" : ""}`}
+                    className={`${
+                      actualMagnitude?.id == magnitude.id ? "selected" : ""
+                    }`}
                     onClick={() => {
-                      setActualMagnitudeId(id);
+                      setActualMagnitude(magnitude);
                     }}
                   >
-                    <p>{l(name)}</p>
+                    <p>{l(magnitude.name)}</p>
                   </li>
                 );
               })}

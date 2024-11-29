@@ -16,7 +16,6 @@ export default function Footer() {
   useEffect(() => {
     getAllLangs().then((allLangs) => {
       setAllLangs(allLangs);
-      console.log(allLangs);
     });
   }, []);
 

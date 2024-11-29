@@ -1,12 +1,20 @@
 {
   "units": [
-    { "id": 0, "name": "UNIT_PRESSURE_PASCAL", "factor": 1 },
-    { "id": 1, "name": "UNIT_PRESSURE_HECTOPASCAL", "factor": 100 },
-    { "id": 2, "name": "UNIT_PRESSURE_KILOPASCAL", "factor": 1000 },
-    { "id": 3, "name": "UNIT_PRESSURE_MEGAPASCAL", "factor": 1000000 },
-    { "id": 4, "name": "UNIT_PRESSURE_BAR", "factor": 100000 },
-    { "id": 5, "name": "UNIT_PRESSURE_ATMOSPHERE", "factor": 101325 },
-    { "id": 6, "name": "UNIT_PRESSURE_TORR", "factor": 133.322 },
-    { "id": 7, "name": "UNIT_PRESSURE_PSI", "factor": 6894.76 }
+    { "id": 0, "name": "UNIT_PRESSURE_PASCAL", "conversion_factor": 1 },
+    { "id": 1, "name": "UNIT_PRESSURE_HECTOPASCAL", "conversion_factor": 100 },
+    { "id": 2, "name": "UNIT_PRESSURE_KILOPASCAL", "conversion_factor": 1000 },
+    {
+      "id": 3,
+      "name": "UNIT_PRESSURE_MEGAPASCAL",
+      "conversion_factor": 1000000
+    },
+    { "id": 4, "name": "UNIT_PRESSURE_BAR", "conversion_factor": 100000 },
+    {
+      "id": 5,
+      "name": "UNIT_PRESSURE_ATMOSPHERE",
+      "conversion_factor": 101325
+    },
+    { "id": 6, "name": "UNIT_PRESSURE_TORR", "conversion_factor": 133.322 },
+    { "id": 7, "name": "UNIT_PRESSURE_PSI", "conversion_factor": 6894.76 }
   ]
 }

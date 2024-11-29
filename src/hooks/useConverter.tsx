@@ -3,8 +3,7 @@ import { ConverterContext } from "../contexts/ConverterContext";
 import { Magnitude } from "../models/Magnitude";
 import { Unit } from "../models/Unit";
 
-const host = "http://localhost:3000";
-const dataUrl = host + "/resources/data/";
+const dataUrl = "/resources/data/";
 
 export default function useConverter() {
   const {
@@ -20,16 +19,15 @@ export default function useConverter() {
     return allUnits.filter(({ id }) => id == unitId)[0];
   };
 
+  // Get conversion result from a value
+  // Reverse is used to convert from the to input to the from input
   const getConversion: (value: number, reverse: boolean) => number = (
     value,
-    reverse = false
+    reverse
   ) => {
-    console.log(currentFromUnit);
-
     if (!currentFromUnit || !currentToUnit) return 0;
     let neutralValue = 0;
     let conversedValue = 0;
-    console.log(currentToUnit);
     if (reverse) {
       neutralValue = value * currentToUnit.conversion_factor;
       conversedValue = neutralValue / currentFromUnit.conversion_factor;

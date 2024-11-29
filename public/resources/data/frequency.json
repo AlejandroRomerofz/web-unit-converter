@@ -1,0 +1,25 @@
+{
+  "units": [
+    { "id": 0, "name": "UNIT_FREQUENCY_HERTZ", "conversion_factor": 1 },
+    {
+      "id": 1,
+      "name": "UNIT_FREQUENCY_KILOHERTZ",
+      "conversion_factor": 1000
+    },
+    {
+      "id": 2,
+      "name": "UNIT_FREQUENCY_MEGAHERTZ",
+      "conversion_factor": 1000000
+    },
+    {
+      "id": 3,
+      "name": "UNIT_FREQUENCY_GIGAHERTZ",
+      "conversion_factor": 1000000000
+    },
+    {
+      "id": 4,
+      "name": "UNIT_FREQUENCY_TERAHERTZ",
+      "conversion_factor": 1000000000000
+    }
+  ]
+}

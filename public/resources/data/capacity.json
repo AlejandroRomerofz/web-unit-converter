@@ -1,10 +1,26 @@
 {
   "units": [
-    { "id": 0, "name": "UNIT_CAPACITY_FARAD", "factor": 1 },
-    { "id": 1, "name": "UNIT_CAPACITY_MICROFARAD", "factor": 1000000 },
-    { "id": 2, "name": "UNIT_CAPACITY_NANOFARAD", "factor": 1000000000 },
-    { "id": 3, "name": "UNIT_CAPACITY_PICO_FARAD", "factor": 1000000000000 },
-    { "id": 4, "name": "UNIT_CAPACITY_KILOFARAD", "factor": 0.001 },
-    { "id": 5, "name": "UNIT_CAPACITY_MEGAFARAD", "factor": 0.000001 }
+    { "id": 0, "name": "UNIT_CAPACITY_FARAD", "conversion_factor": 1 },
+    {
+      "id": 1,
+      "name": "UNIT_CAPACITY_MICROFARAD",
+      "conversion_factor": 1000000
+    },
+    {
+      "id": 2,
+      "name": "UNIT_CAPACITY_NANOFARAD",
+      "conversion_factor": 1000000000
+    },
+    {
+      "id": 3,
+      "name": "UNIT_CAPACITY_PICO_FARAD",
+      "conversion_factor": 1000000000000
+    },
+    { "id": 4, "name": "UNIT_CAPACITY_KILOFARAD", "conversion_factor": 0.001 },
+    {
+      "id": 5,
+      "name": "UNIT_CAPACITY_MEGAFARAD",
+      "conversion_factor": 0.000001
+    }
   ]
 }

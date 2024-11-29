@@ -18,6 +18,9 @@ export default function useLang() {
       .then((res) => {
         setLangStrings(res);
         setLang(lang);
+
+        // Set default language to preserve state
+        localStorage.setItem("lang", lang);
       });
   };
 

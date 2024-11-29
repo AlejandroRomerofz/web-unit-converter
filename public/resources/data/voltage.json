@@ -1,0 +1,17 @@
+{
+  "units": [
+    { "id": 0, "name": "UNIT_VOLTAGE_VOLT", "conversion_factor": 1 },
+    { "id": 1, "name": "UNIT_VOLTAGE_MILLIVOLT", "conversion_factor": 1000 },
+    { "id": 2, "name": "UNIT_VOLTAGE_KILOVOLT", "conversion_factor": 0.001 },
+    {
+      "id": 3,
+      "name": "UNIT_VOLTAGE_MEGA_VOLT",
+      "conversion_factor": 0.000001
+    },
+    {
+      "id": 4,
+      "name": "UNIT_VOLTAGE_GIGA_VOLT",
+      "conversion_factor": 0.000000001
+    }
+  ]
+}

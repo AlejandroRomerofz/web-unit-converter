@@ -1,8 +1,8 @@
 import "./converterValueInput.css";
 
 export type ConverterValueInputProps = {
-  onChange: (value: number) => void;
-  value: number;
+  onChange: (value: string) => void;
+  value: string;
 };
 
 export default function ConverterValueInput({
@@ -15,7 +15,7 @@ export default function ConverterValueInput({
         value={value}
         className="bg-primary"
         onChange={(e) => {
-          onChange(parseFloat(e.target.value));
+          onChange(e.target.value);
         }}
         type="number"
       />

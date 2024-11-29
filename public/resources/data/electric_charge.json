@@ -1,12 +1,25 @@
 {
   "units": [
-    { "id": 0, "name": "UNIT_ELECTRIC_CHARGE_COULOMB", "factor": 1 },
-    { "id": 1, "name": "UNIT_ELECTRIC_CHARGE_MILLICOULOMB", "factor": 1000 },
-    { "id": 2, "name": "UNIT_ELECTRIC_CHARGE_MICROCOULOMB", "factor": 1000000 },
+    { "id": 0, "name": "UNIT_ELECTRIC_CHARGE_COULOMB", "conversion_factor": 1 },
+    {
+      "id": 1,
+      "name": "UNIT_ELECTRIC_CHARGE_MILLICOULOMB",
+      "conversion_factor": 0.001
+    },
+    {
+      "id": 2,
+      "name": "UNIT_ELECTRIC_CHARGE_MICROCOULOMB",
+      "conversion_factor": 0.000001
+    },
     {
       "id": 3,
       "name": "UNIT_ELECTRIC_CHARGE_NANOCOULOMB",
-      "factor": 1000000000
+      "conversion_factor": 0.000000001
+    },
+    {
+      "id": 4,
+      "name": "UNIT_ELECTRIC_CHARGE_KILOCOULOMB",
+      "conversion_factor": 1000
     }
   ]
 }

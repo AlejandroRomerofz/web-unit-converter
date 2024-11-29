@@ -1,0 +1,20 @@
+{
+  "units": [
+    { "id": 0, "name": "UNIT_MAGNETIC_FIELD_TESLA", "conversion_factor": 1 },
+    {
+      "id": 1,
+      "name": "UNIT_MAGNETIC_FIELD_MILLITESLA",
+      "conversion_factor": 0.001
+    },
+    {
+      "id": 2,
+      "name": "UNIT_MAGNETIC_FIELD_MICROTESLA",
+      "conversion_factor": 0.000001
+    },
+    {
+      "id": 3,
+      "name": "UNIT_MAGNETIC_FIELD_GAUSS",
+      "conversion_factor": 0.0001
+    }
+  ]
+}

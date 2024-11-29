@@ -1,8 +1,25 @@
 {
   "units": [
-    { "id": 0, "name": "UNIT_RESISTANCE_OHM", "factor": 1 },
-    { "id": 1, "name": "UNIT_RESISTANCE_KILO_OHM", "factor": 0.001 },
-    { "id": 2, "name": "UNIT_RESISTANCE_MEGA_OHM", "factor": 0.000001 },
-    { "id": 3, "name": "UNIT_RESISTANCE_GIGA_OHM", "factor": 0.000000001 }
+    { "id": 0, "name": "UNIT_RESISTANCE_OHM", "conversion_factor": 1 },
+    {
+      "id": 1,
+      "name": "UNIT_RESISTANCE_MILLIOHM",
+      "conversion_factor": 0.001
+    },
+    {
+      "id": 2,
+      "name": "UNIT_RESISTANCE_KILOOHM",
+      "conversion_factor": 1000
+    },
+    {
+      "id": 3,
+      "name": "UNIT_RESISTANCE_MEGAOHM",
+      "conversion_factor": 1000000
+    },
+    {
+      "id": 4,
+      "name": "UNIT_RESISTANCE_GIGAOHM",
+      "conversion_factor": 1000000000
+    }
   ]
 }
