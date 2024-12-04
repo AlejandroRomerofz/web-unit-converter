@@ -2,7 +2,7 @@
 
 Welcome to **Unit Converter**, an interactive web application for quickly and easily converting units. With support for various physical magnitudes and an intuitive interface, you'll be able to perform conversions effortlessly. Additionally, it features an elegant **Night Mode** for a more comfortable experience in low-light environments.
 
-**Check the app on https://alexpz01.github.io/unit-converter/**
+**Check the app on https://unit-converter.alejandroromerofz.com/**
 
 ## Features
 
