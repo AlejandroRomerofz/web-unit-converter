@@ -35,7 +35,7 @@ export default function Converter() {
 
   // Update value when to unit is changed
   useEffect(() => {
-    setToValue(getConversion(parseFloat(toValue), false).toString());
+    setToValue(getConversion(parseFloat(fromValue), false).toString());
   }, [currentToUnit]);
 
   // Reset all values on magnitude change

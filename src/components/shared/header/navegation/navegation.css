@@ -12,6 +12,7 @@
 
 @media (min-width: 768px) {
   .nav-container {
+    max-width: 100rem;
     width: 70%;
   }
 }
